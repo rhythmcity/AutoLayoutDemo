@@ -23,7 +23,7 @@ class ViewController: UIViewController ,UITableViewDelegate,UITableViewDataSourc
     }()
     
    lazy var list:Array<Any> = {
-        var list :Array<Any> =  ["正常的布局","有动画的布局","三等分","优先级"]
+        var list :Array<Any> =  ["正常的布局","有动画的布局","三等分","优先级","Hugging与Compression"]
         return list
 
     }()
@@ -73,6 +73,9 @@ class ViewController: UIViewController ,UITableViewDelegate,UITableViewDataSourc
             break
         case 3:
             self.navigationController?.pushViewController(FourthViewController(), animated: true)
+            break
+        case 4:
+            self.navigationController?.pushViewController(FifthViewController(), animated: true)
             break
         default :
             break

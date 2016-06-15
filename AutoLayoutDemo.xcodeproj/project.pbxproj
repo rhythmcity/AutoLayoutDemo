@@ -19,6 +19,7 @@
 		BA47698E1D114D3200BE3CB1 /* ThridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA47698D1D114D3200BE3CB1 /* ThridViewController.swift */; };
 		BA4769901D11584B00BE3CB1 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA47698F1D11584B00BE3CB1 /* FourthViewController.swift */; };
 		BA4769921D11614B00BE3CB1 /* AutoLayoutCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4769911D11614B00BE3CB1 /* AutoLayoutCell.swift */; };
+		BABB74D01D118989003ACE4C /* FifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABB74CF1D118989003ACE4C /* FifthViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		BA47698D1D114D3200BE3CB1 /* ThridViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThridViewController.swift; sourceTree = "<group>"; };
 		BA47698F1D11584B00BE3CB1 /* FourthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
 		BA4769911D11614B00BE3CB1 /* AutoLayoutCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoLayoutCell.swift; sourceTree = "<group>"; };
+		BABB74CF1D118989003ACE4C /* FifthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FifthViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 				BA47698B1D1144FB00BE3CB1 /* SecondViewController.swift */,
 				BA47698D1D114D3200BE3CB1 /* ThridViewController.swift */,
 				BA47698F1D11584B00BE3CB1 /* FourthViewController.swift */,
+				BABB74CF1D118989003ACE4C /* FifthViewController.swift */,
 				BA4769911D11614B00BE3CB1 /* AutoLayoutCell.swift */,
 				BA47695F1D1131C800BE3CB1 /* Main.storyboard */,
 				BA4769621D1131C800BE3CB1 /* Assets.xcassets */,
@@ -278,6 +281,7 @@
 				BA47698C1D1144FB00BE3CB1 /* SecondViewController.swift in Sources */,
 				BA47698A1D113EB700BE3CB1 /* FirstViewController.swift in Sources */,
 				BA47698E1D114D3200BE3CB1 /* ThridViewController.swift in Sources */,
+				BABB74D01D118989003ACE4C /* FifthViewController.swift in Sources */,
 				BA47695E1D1131C800BE3CB1 /* ViewController.swift in Sources */,
 				BA4769921D11614B00BE3CB1 /* AutoLayoutCell.swift in Sources */,
 				BA47695C1D1131C800BE3CB1 /* AppDelegate.swift in Sources */,
@@ -507,6 +511,7 @@
 				BA4769821D1131C800BE3CB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BA4769831D1131C800BE3CB1 /* Build configuration list for PBXNativeTarget "AutoLayoutDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +520,7 @@
 				BA4769851D1131C800BE3CB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BA4769861D1131C800BE3CB1 /* Build configuration list for PBXNativeTarget "AutoLayoutDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +529,7 @@
 				BA4769881D1131C800BE3CB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
